@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2d666f03c68b9cc42f63",
+    "revision": "224db8e35cbb77a68a68",
     "url": "/React-Portfolio/static/css/main.606c4610.chunk.css"
   },
   {
-    "revision": "2d666f03c68b9cc42f63",
-    "url": "/React-Portfolio/static/js/main.0460578f.chunk.js"
+    "revision": "224db8e35cbb77a68a68",
+    "url": "/React-Portfolio/static/js/main.c4e5570e.chunk.js"
   },
   {
     "revision": "a5982163e5c3e3252977",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/React-Portfolio/static/js/2.b1ed2dbf.chunk.js"
   },
   {
-    "revision": "f611528f0e8b9fe1a98086fe5fb36144",
-    "url": "/React-Portfolio/static/media/TitusKnoxResume.f611528f.pdf"
+    "revision": "93476f992f1948c4794cabac9bf7e87f",
+    "url": "/React-Portfolio/static/media/KnoxResume.93476f99.png"
   },
   {
     "revision": "08e347e33d60868f5600728c2b6f87e4",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/React-Portfolio/static/media/timesquare.54331e40.PNG"
   },
   {
-    "revision": "1e62a80cbd4773a1b76e218b7e485703",
+    "revision": "292a638777873491c4bd7e9018a32a81",
     "url": "/React-Portfolio/index.html"
   }
 ];
