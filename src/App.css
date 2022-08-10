@@ -17,7 +17,11 @@ html, body, #root {
 }
 
 .footer{
- margin-top: auto;
+    margin-top: auto;
+}
+
+.nameText{
+    justify-content: start;
 }
 
 .navBar {

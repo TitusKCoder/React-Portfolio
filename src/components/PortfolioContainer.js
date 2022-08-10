@@ -35,6 +35,9 @@ export default function PortfolioContainer() {
     <div>
       {renderPage()}
     </div>
+    <div>
+      <Contact />
+    </div>
       <footer>
         <Footer />
       </footer>

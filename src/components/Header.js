@@ -3,8 +3,8 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='navBar'>
-      <h1 className='ms-auto'> Titus Knox </h1>
-      <ul className="nav nav-tabs justify-content-center ">
+      <h1 className='nameText'> Titus Knox </h1>
+      <ul className="nav nav-tabs ">
         <li className="nav-item justify-content-space-evenly">
           <a
             href="#about"
@@ -33,16 +33,6 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
           >
             Resume
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#contact"
-
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact
           </a>
         </li>
       </ul>

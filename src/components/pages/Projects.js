@@ -1,82 +1,124 @@
 import React from 'react';
-import pizza from "../../images/StucciosPizza.png";
 import planner from "../../images/Dayplanner.PNG";
-import quiz from "../../images/CodeQuiz.PNG";
-import commerce from "../../images/EcommBackend.PNG";
+ import commerce from "../../images/EcommBackend.PNG";
+import timesqu from "../../images/timesquare.PNG"
 
 const styles = {
-  big: {
-    width: "75%",
-    marginLeft: "12%",
-    marginRight: "12%",
+  card: {
+    margin: 20,
+    background: "#e8eaf6",
   },
-  small: {
-    marginLeft: "20%",
-    marginRight: "20%",
-    paddingTop: "5%",
+  cardformat: {
+    display: "flex",
+    flexDirection: "row",
   },
+  heading: {
+    background: "#3f51b5",
+    minHeight: 50,
+    lineHeight: 3.5,
+    fontSize: "1.2rem",
+    color: "white",
+    padding: "0 20px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  content: {
+    padding: 20,
+  },
+  pic: {
+    margin: 20,
+    height: 300,
+    width: 500,
+    border: '3px solid black'
+  },
+  link: {
+    color: "black",
+    underline: "none"
+  },
+  center: {
+    background: "#3f51b5",
+    minHeight: 50,
+    lineHeight: 3.5,
+    fontSize: "1.2rem",
+    color: "white",
+    padding: "0 20px",
+    alignItems: "center",
+    justifyContent: "centet"
+  }
 };
 
 export default function Projects() {
   return (
     <article id="work">
-      <h2 className="text-center">Projects</h2>
-      <section className="card" style={styles.big}>
-        <a target="blank" href="https://stuccos-pizzeria-23709.herokuapp.com/">
-          <img
-            className="img-fluid max-width: 100% height: auto"
-            src={pizza}
-            alt="Stucco's Pizzeria"
-          />
-        </a>
-        <div className="textContain">
-          <p>Stucco's Pizzeria E-Commerce</p>
+          <section style={styles.card}>
+        <div style={styles.heading}>
+          <p>Timesquare Chat App</p>
         </div>
+        <div style={styles.cardformat}>
+          <img
+            style={styles.pic}
+            src={timesqu}
+            alt="Timesquare chat app"
+            />
+        <div>    
+          <a style={styles.link} target="blank" href="https://secret-badlands-36880.herokuapp.com/">
+          <p style={styles.content}>
+          This is my most recent project! This chat app uses the MERN stack and runs on Heroku. Specific frameworks include React, GraphQL, Express, Apollo Server, MongoDB, Mongoose ODM, Bcrypt, and Websockets. Click here to view the app.
+          </p>
+          </a>
+          <p> </p>
+          <a style={styles.link} target="blank" href="https://github.com/TitusKCoder/HourApp">
+          <p style={styles.content}>
+          Click here to view the source code
+          </p>
+          </a>
+          </div>
+            </div>
       </section>
-      <section className="container" style={styles.small}>
-        <div className="row">
-          <div className="col-6 justify-content-center">
-            <a target="blank" href="https://tituskcoder.github.io/planner/">
+          <div style={styles.card}>
+            <div style={styles.heading}>
+              <p>Day Planner</p>
+            </div>
+            <div style={styles.cardformat}>
               <img
-                className="img-fluid max-width: 100% height: auto"
+                style={styles.pic}
                 src={planner}
                 alt="Work Day Planner"
               />
-            </a>
-            <div className="textContain">
-              <p>Day Planner</p>
-            </div>
-          </div>
-          <div className="col-6 justify-content-center">
-            <a target="blank" href="https://github.com/TitusKCoder/CodeQuiz">
-              <img
-                className="img-fluid max-width: 100% height: auto"
-                src={quiz}
-                alt="Coding Quiz"
-              />
-            </a>
-            <div className="textContain">
-              <p>Coding Quiz</p>
-            </div>
-          </div>
+        <div>
+          <a target="blank" href="https://tituskcoder.github.io/planner/">
+          <p style={styles.link}>
+          This simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery. Click here to view the web app.
+          </p>
+          </a>
+          <p> </p>
+          <a target="blank" href="https://github.com/TitusKCoder/planner">
+          <p style={styles.link}>
+          Click here to view source code
+          </p>
+          </a>
         </div>
-      </section>
-      <section className="container" style={styles.small}>
-        <div className="row">
-          <div className="col-6 justify-content-center">
-            <a
-              target="blank"
-              href="https://github.com/TitusKCoder/E-commerce"
-            >
+        
+            </div>
+          </div>
+      <section style={styles.card}>
+            <div style={styles.heading}>
+              <p>E-Commerce Back End</p>
+        </div>
+        <div style={styles.cardformat}>
               <img
-                className="img-fluid max-width: 100% height: auto"
+                style={styles.pic}
                 src={commerce}
                 alt="E-Commerce"
               />
+           <div style={styles.content}>
+           <a target="blank" href="https://github.com/TitusKCoder/E-commerce">
+            <p style={styles.link}>This backend only project gave me experience with with Node.js, MySQL2, Sequelize, dotenv, JavaScript, and Insomnia.</p>
+            <p style={styles.link}> Click here to view the source code on GitHub</p>
             </a>
-            <div className="textContain">
-              <p>E-Commerce Back End</p>
-            </div>
+
           </div>
         </div>
       </section>
