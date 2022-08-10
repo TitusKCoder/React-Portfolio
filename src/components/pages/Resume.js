@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../../images/Resume.PNG'
+import resume from '../../images/KnoxResume.png'
 
 const styles = {
   card: {
