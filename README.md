@@ -6,7 +6,7 @@
 
 A profolio using react on the front end
 
-My main motivation for this project is 
+My main motivation for this project is to understand react better 
 
 ## Table of Contents 
 
